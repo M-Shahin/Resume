@@ -1,0 +1,103 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: auto;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+p {
+  margin-left: auto;
+  color: Black;
+}
+
+.navbar {
+  z-index: 100;
+  background-color: #555555;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*-- Profile --*/
+#profile {
+  padding: 15% 10% 10%;
+  background-color: #20B2AA;
+  text-align: left;
+}
+
+.profile-picture {
+  width: 60%;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+#experience, #education, #skills {
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 13%;
+}
+
+/*-- Experience --*/
+.experience-details {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.experience-description {
+  margin-top: 2%;
+}
+
+/*-- Skills --*/
+#skills {
+  background-color: #20B2AA;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin-left: -6%;
+}
+
+/*-- Education --*/
+/*-- Contact --*/
+#contact {
+  text-align: center;
+}
+
+.contact-no-bullets {
+  list-style-type: none;
+}
+
+/*-- Footer --*/
+
+#footer {
+  margin-top: 5%;
+  background-color: #20B2AA;
+  padding: 50px 0 20px;
+  font-size: .75rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
